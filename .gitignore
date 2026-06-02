@@ -1,0 +1,22 @@
+# Python Virtual Environments (Catches any folder named .venv anywhere)
+**/.venv/
+**/venv/
+**/env/
+
+# Secrets & Environment Configurations
+**/.env
+**/.env.local
+
+# Python Bytecode Clutter
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor Workspace Configurations
+**/.idea/
+**/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
